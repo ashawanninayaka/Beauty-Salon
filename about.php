@@ -5,11 +5,11 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Petco </title>
+        <title>Beauty</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+		
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
@@ -29,11 +29,7 @@
     </head>
     <body>
 
-        <!-- Preloader -->
-        <div id="preloader">
-            <img src="img/preloader.gif" alt="">
-        </div>
-        <!-- Preloader-end -->
+      
 
 		<!-- Scroll-top -->
         <button class="scroll-top scroll-to-target" data-target="html">
@@ -124,10 +120,8 @@
                         <div class="col-xl-4 col-lg-9 col-md-12 col-sm-9">
                             <div class="adoption-content">
                                 <h5 class="sub-title">About Us</h5>
-                                <h2 class="title">Best Place <span>For</span> Your Pets</h2>
-                                <p>we are a team of passionate animal lovers who are dedicated to providing the best possible care for your beloved pets.
-                                     Our mission is to ensure the health, well-being, and happiness of pets through comprehensive veterinary services, boarding,
-                                      grooming, rehabilitation, nutrition counseling, and more.</p>
+                                <h2 class="title">Best Place <span>For</span> Your Beauty</h2>
+                                <p>At Beauty's. we pride ourselves on being the best one stop salon in Nikaweratiya. We provide a wide range of services at affordable prices. We aim to serve you with the highest level of customer service as well as giving you the most incredible salon experience ever!.</p>
                                 
                             </div>
                         </div>
@@ -166,8 +160,8 @@
                                     <div class="col-md-6">
                                         <div class="breed-services-info" data-background="img/bg/breed_services_bg.jpg">
                                             
-                                            <h3 class="title">Our Facilities</h3>
-                                            <p>Our facility is equipped with state-of-the-art technology and facilities to provide top-notch medical care for pets of all sizes and ages. </p>
+                                            <h3 class="title" >Our Facilities</h3>
+                                            <p>These facilities work together to provide clients with a comprehensive range of beauty services in a comfortable and hygienic environment </p>
                                             <a href="blog.php" class="btn"> Read More <img src="img/icon/w_pawprint.png" alt=""></a>
                                         </div>
                                     </div>
@@ -178,42 +172,11 @@
                 </div>
             </section>
             <!-- breeder-area-end -->
+            
            
            <br><br><br><br>
 
-            <!-- faq-area -->
-            <section class="faq-area faq-two-bg">
-                <div class="faq-two-img"></div>
-                <div class="container">
-                    <div class="row justify-content-end">
-                        <div class="col-xl-7 col-lg-6">
-                            <div class="faq-wrapper">
-                                <div class="section-title white-title mb-35">
-                                  
-                                    <h2 class="title">Our History</h2>
-                                </div>
-                                <div class="accordion" id="accordionExample">
-                                    <div class="card">
-                                    
-                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                            data-parent="#accordionExample">
-                                            <div class="card-body">
-                                            Our Pet Care Center has a rich history that spans over several decades, driven by a passion for providing 
-                                            exceptional care to animals. Our journey began as a small veterinary clinic established by a group of dedicated
-                                             veterinarians who shared a common goal of making a positive impact on the lives of pets and their owners.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="faq-shape"><img src="img/images/faq_shape.png" alt=""></div>
-            </section>
-            <!-- faq-area-end -->
+    
            
 <br><br><br><br>
            

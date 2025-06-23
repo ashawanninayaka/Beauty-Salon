@@ -11,13 +11,13 @@
 
  if(isset($_POST['add'])){
     $pname = $_POST['pname'];
-    $category = $_POST['category'];
+   
     $quantity = $_POST['quantity'];
     $price = $_POST['price'];
     $file = addslashes(file_get_contents($_FILES["pimage"]["tmp_name"]));
    
 
-    $query = mysqli_query($con, "INSERT INTO shop(pname,category,quantity,price,pimage,nic) VALUES(' $pname','$category', '$quantity', $price,'$file','$id')");
+    $query = mysqli_query($con, "INSERT INTO shop(pname,quantity,price,pimage,nic) VALUES(' $pname','$quantity', $price,'$file','$id')");
  }
  
   
@@ -27,11 +27,11 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Petco Admin</title>
+        <title>Beauty Admin</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description">
         <meta content="Coderthemes" name="author">
-        <link rel="shortcut icon" type="/../Pet/image/x-icon" href="/../Pet/img/favicon.png">
+        <link rel="shortcut icon" type="/../Beauty/image/x-icon" href="/../Beauty/img/favicon.png">
         <!-- App favicon -->
       
 
@@ -86,12 +86,7 @@
                                 <span> Users </span>
                             </a>
                         </li>
-                        <li class="side-nav-item">
-                            <a href="pet.php" class="side-nav-link">
-                                <i class="uil-calender"></i>
-                                <span> Pet Details</span>
-                            </a>
-                        </li>
+                        
                         <li class="side-nav-item">
                             <a href="booking.php" class="side-nav-link">
                                 <i class="uil-comments"></i>
@@ -111,7 +106,7 @@
                             </a>
                         </li>
                         <li class="side-nav-item">
-                            <a href="/../Pet/" class="side-nav-link">
+                            <a href="/../Beauty/" class="side-nav-link">
                                 <i class="mdi mdi-logout me-1"></i>
                                 <span>Logout </span>
                             </a>
@@ -154,26 +149,7 @@
 
                        
 
-                            <li class="dropdown notification-list">
-                                <a class="nav-link dropdown-toggle nav-user arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                    <span class="account-user-avatar"> 
-                                        <img src="/../Pet/img/favicon.png" alt="user-image" class="rounded-circle">
-                                    </span>
-                                    
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated topbar-dropdown-menu profile-dropdown">
-                                
-
-                          
-                                    
-
-                                    <!-- item-->
-                                    <a href="/../Pet/" class="dropdown-item notify-item">
-                                        <i class="mdi mdi-logout me-1"></i>
-                                        <span>Logout</span>
-                                    </a>
-                                </div>
-                            </li>
+                            
 
                         </ul>
                         <button class="button-menu-mobile open-left">
@@ -284,7 +260,7 @@
                                                                 <th>No.</th>
                                                                 <th>Product ID</th>
                                                                 <th>Product Name</th>
-                                                                <th>Catagory</th>
+                                                               
                                                                 <th>Quantity</th>
                                                                 <th>Price</th>
                                                                
@@ -301,7 +277,7 @@
                                                                     <td>".$loop."</td>
                                                                     <td>".$row['pid']."</td>
                                                                     <td>".$row['pname']."</td>
-                                                                    <td>".$row['category']."</td>
+                                                                   
                                                                     <td>".$row['quantity']."</td>
                                                                     <td>".$row['price']."</td>
                                                                     
@@ -351,33 +327,23 @@
                                                             <input type="text"  class="form-control" placeholder="Product Name:" name="pname">
                                                         </div>
                                                         <div class="mb-3 col-md-6">
-                                                            <label for="example-select" class="form-label">Select Category:</label>
-                                                            <select class="form-select"  name="category">
-                                                                <option>Select Category:</option>
-                                                                <option value ="food">Food </option>
-                                                                <option value ="other">Other</option>
-                                                                <option value ="medicine">Medicine</option> 
-                                                            </select>
+                                                            <label for="example-palaceholder" class="form-label">Total Quantity:</label>
+                                                            <input type="text"  class="form-control" placeholder="Total Quantity:"name="quantity">
                                                         </div>
                                                     </div>
                                                     <div class="row g-2">
-                                                        <div class="mb-3 col-md-6">
-                                                         <label for="example-palaceholder" class="form-label">Total Quantity:</label>
-                                                         <input type="text"  class="form-control" placeholder="Total Quantity:"name="quantity">
-                                                        </div>
+                                                        
                                                         <div class="mb-3 col-md-6">
                                                         
                                                             <label for="example-palaceholder" class="form-label">Price:</label>
                                                             <input type="text"  class="form-control" placeholder="Price:" name="price">
                                                         </div>
-                                                    </div>
-                                                    <div class="row g-2">
                                                         <div class="mb-3 col-md-6">
                                                         <label for="example-fileinput" class="form-label">Choose Image:</label>
                                                                 <input type="file"  class="form-control" name="pimage" id="pimage">
                                                         </div>
-                                                        
                                                     </div>
+                                                    
         
         
                                                    
@@ -410,7 +376,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-6">
-                                <script>document.write(new Date().getFullYear())</script> © Hyper - PECTCO
+                                <script>document.write(new Date().getFullYear())</script> © Hyper - 2024 Beauty
                             </div>
                             
                         </div>

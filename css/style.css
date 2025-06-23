@@ -418,6 +418,7 @@ label {
     z-index: -1;
     background-repeat: repeat;
     background-position: center;
+    
 }
 
 .transparent-header {
@@ -4561,12 +4562,13 @@ label {
 /* 21. Footer */
 
 .footer-bg {
-    background-image: url(../img/bg/footer_bg.jpg);
+    background-image: url();
     background-position: center;
     background-size: cover;
     position: relative;
     padding: 105px 0 55px;
     z-index: 1;
+    background-color: bisque;
 }
 
 .footer-bg::before,

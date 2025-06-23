@@ -14,12 +14,12 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Petco</title>
+        <title>Beauty Admin</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description">
         <meta content="Coderthemes" name="author">
         <!-- App favicon -->
-        <link rel="shortcut icon" type="/../Pet/image/x-icon" href="/../Pet/img/favicon.png">
+        <link rel="shortcut icon" type="/../Beauty/image/x-icon" href="/../Beauty/img/favicon.png">
       
 
         <!-- third party css -->
@@ -94,7 +94,7 @@
                         
                         
                         <li class="side-nav-item">
-                            <a href="/../Pet/" class="side-nav-link">
+                            <a href="/../Beauty/" class="side-nav-link">
                                 <i class="mdi mdi-logout me-1"></i>
                                 <span>Logout </span>
                             </a>
@@ -137,26 +137,7 @@
 
                        
 
-                            <li class="dropdown notification-list">
-                                <a class="nav-link dropdown-toggle nav-user arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                    <span class="account-user-avatar"> 
-                                        <img src="/../Pet/img/favicon.png" alt="user-image" class="rounded-circle">
-                                    </span>
-                                    
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated topbar-dropdown-menu profile-dropdown">
-                                
-
-                          
-                                    
-
-                                    <!-- item-->
-                                    <a href="/../Pet/" class="dropdown-item notify-item">
-                                        <i class="mdi mdi-logout me-1"></i>
-                                        <span>Logout</span>
-                                    </a>
-                                </div>
-                            </li>
+                            
 
                         </ul>
                         <button class="button-menu-mobile open-left">
@@ -213,12 +194,7 @@
                                                             <label for="example-palaceholder" class="form-label">Product Name:</label>
                                                             <input type="text"  class="form-control" disabled name="pname" value ="<?php echo $row['pname']; ?>">
                                                         </div>
-                                                        <div class="mb-3 col-md-6">
-                                                            <label for="example-select" class="form-label">Select Category:</label>
-                                                            
-                                                            <input type="text"  class="form-control" disabled name="category" value ="<?php echo $row['category']; ?>"> 
-                                                         
-                                                        </div>
+                                                        
                                                     </div>
                                                     <div class="row g-2">
                                                         <div class="mb-3 col-md-6">
@@ -265,7 +241,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-6">
-                                <script>document.write(new Date().getFullYear())</script> © Hyper - PECTCO
+                                <script>document.write(new Date().getFullYear())</script> © Hyper - 2024 Beauty
                             </div>
                             
                         </div>

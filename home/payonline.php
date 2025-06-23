@@ -15,33 +15,33 @@
 <head>
 <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Petco</title>
+        <title>Beauty</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="shortcut icon" type="/../Pet/image/x-icon" href="/../Pet/img/favicon.png">
+		
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
-        <link rel="stylesheet" href="/../Pet/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/../Pet/css/animate.min.css">
-        <link rel="stylesheet" href="/../Pet/css/magnific-popup.css">
-        <link rel="stylesheet" href="/../Pet/css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="/../Pet/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="/../Pet/css/nice-select.css">
-        <link rel="stylesheet" href="/../Pet/css/flaticon.css">
-        <link rel="stylesheet" href="/../Pet/css/odometer.css">
-        <link rel="stylesheet" href="/../Pet/css/jquery-ui.css">
-        <link rel="stylesheet" href="/../Pet/css/slick.css">
-        <link rel="stylesheet" href="/../Pet/css/default.css">
-        <link rel="stylesheet" href="/../Pet/css/style.css">
-        <link rel="stylesheet" href="/../Pet/css/responsive.css">
+        <link rel="stylesheet" href="/../Beauty/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/animate.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/magnific-popup.css">
+        <link rel="stylesheet" href="/../Beauty/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/nice-select.css">
+        <link rel="stylesheet" href="/../Beauty/css/flaticon.css">
+        <link rel="stylesheet" href="/../Beauty/css/odometer.css">
+        <link rel="stylesheet" href="/../Beauty/css/jquery-ui.css">
+        <link rel="stylesheet" href="/../Beauty/css/slick.css">
+        <link rel="stylesheet" href="/../Beauty/css/default.css">
+        <link rel="stylesheet" href="/../Beauty/css/style.css">
+        <link rel="stylesheet" href="/../Beauty/css/responsive.css">
        
   
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="/../Pet/css/style2.css">
+    <link rel="stylesheet" href="/../Beauty/css/style2.css">
     <!-- Responsive css -->
-    <link rel="stylesheet" href="/../Pet/css/responsive2.css">
+    <link rel="stylesheet" href="/../Beauty/css/responsive2.css">
 </head>
 
 <body>
@@ -95,25 +95,25 @@
 
     
 		<!-- JS here -->
-        <script src="/../Pet/js/vendor/jquery-3.6.0.min.js"></script>
-        <script src="/../Pet/js/bootstrap.min.js"></script>
-        <script src="/../Pet/js/isotope.pkgd.min.js"></script>
-        <script src="/../Pet/js/imagesloaded.pkgd.min.js"></script>
-        <script src="/../Pet/js/jquery.magnific-popup.min.js"></script>
-        <script src="/../Pet/js/owl.carousel.min.js"></script>
-        <script src="/../Pet/js/jquery.odometer.min.js"></script>
-        <script src="/../Pet/js/jquery.nice-select.min.js"></script>
-        <script src="/../Pet/js/jquery-ui.min.js"></script>
-        <script src="/../Pet/js/jquery.appear.js"></script>
-        <script src="/../Pet/js/slick.min.js"></script>
-        <script src="/../Pet/js/wow.min.js"></script>
-        <script src="/../Pet/js/plugins.js"></script>
-        <script src="/../Pet/js/main.js"></script>
-        <script src="/../Pet/js/script.js"></script>
+        <script src="/../Beauty/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="/../Beauty/js/bootstrap.min.js"></script>
+        <script src="/../Beauty/js/isotope.pkgd.min.js"></script>
+        <script src="/../Beauty/js/imagesloaded.pkgd.min.js"></script>
+        <script src="/../Beauty/js/jquery.magnific-popup.min.js"></script>
+        <script src="/../Beauty/js/owl.carousel.min.js"></script>
+        <script src="/../Beauty/js/jquery.odometer.min.js"></script>
+        <script src="/../Beauty/js/jquery.nice-select.min.js"></script>
+        <script src="/../Beauty/js/jquery-ui.min.js"></script>
+        <script src="/../Beauty/js/jquery.appear.js"></script>
+        <script src="/../Beauty/js/slick.min.js"></script>
+        <script src="/../Beauty/js/wow.min.js"></script>
+        <script src="/../Beauty/js/plugins.js"></script>
+        <script src="/../Beauty/js/main.js"></script>
+        <script src="/../Beauty/js/script.js"></script>
     
     <!-- Main JS -->
-    <script src="/../Pet/js/main2.js"></script>
-    <script src="/../Pet/js/plugins2.js"></script>
+    <script src="/../Beauty/js/main2.js"></script>
+    <script src="/../Beauty/js/plugins2.js"></script>
     
   
 </body>

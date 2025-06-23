@@ -5,11 +5,11 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Petco</title>
+        <title>Beauty</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+		
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
@@ -29,11 +29,7 @@
     </head>
     <body>
 
-        <!-- Preloader -->
-        <div id="preloader">
-            <img src="img/preloader.gif" alt="">
-        </div>
-        <!-- Preloader-end -->
+       
 
 		<!-- Scroll-top -->
         <button class="scroll-top scroll-to-target" data-target="html">
@@ -140,7 +136,7 @@
                                 </div>
                                 <div class="blog-post-content">
                                    
-                                    <h3 class="title"><a href="#">Vaccination</a></h3>
+                                    <h3 class="title"><a href="#">Face Threading</a></h3>
                                   
                                    
                                 </div>
@@ -156,7 +152,7 @@
                                 </div>
                                 <div class="blog-post-content">
                                     
-                                    <h3 class="title"><a href="#">Other Medical Problems</a></h3>
+                                    <h3 class="title"><a href="#">Hair Cutting Services</a></h3>
                                   
                                 </div>
                             </div>
@@ -171,7 +167,7 @@
                                 </div>
                                 <div class="blog-post-content">
                                     
-                                    <h3 class="title"><a href="#">Grooming</a></h3>
+                                    <h3 class="title"><a href="#"> Professional Makeup Services</a></h3>
                                    
                                 </div>
                             </div>
@@ -186,26 +182,12 @@
                                 </div>
                                 <div class="blog-post-content">
                                     
-                                    <h3 class="title"><a href="#">Testing & Diagnosisg</a></h3>
+                                    <h3 class="title"><a href="#">Manicure & Pedicure Services</a></h3>
                                    
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="blog-post-item mb-50">
-                                <div class="blog-post-thumb">
-                                    <a href="blog-details.html"><img src="img/blog/blog_post_thumb02.jpg" alt=""></a>
-                                    <div class="blog-post-tag">
-                                        <a href="login.php"><i class="flaticon-bookmark-1"></i>Booking</a>
-                                    </div>
-                                </div>
-                                <div class="blog-post-content">
-                                    
-                                    <h3 class="title"><a href="#">Specialized Care</a></h3>
-                                   
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </section>

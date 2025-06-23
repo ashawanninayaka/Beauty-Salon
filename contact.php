@@ -12,7 +12,7 @@
     $cmessage = $_POST['c_message'];
 
     $query = mysqli_query($con, "INSERT INTO complaints(c_name, c_email, c_mobile, c_message) VALUES('$cname', '$cemail', '$cmobile', '$cmessage')");
-
+   
  }
  
   
@@ -25,11 +25,11 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Petco</title>
+        <title>Beauty</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+		
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
@@ -49,11 +49,7 @@
     </head>
     <body>
 
-        <!-- Preloader -->
-        <div id="preloader">
-            <img src="img/preloader.gif" alt="">
-        </div>
-        <!-- Preloader-end -->
+       
 
 		<!-- Scroll-top -->
         <button class="scroll-top scroll-to-target" data-target="html">
@@ -184,7 +180,7 @@
                                             <li>
                                                 <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
                                                 <div class="content">
-                                                    <p>PETCO,Kurunegala,SL</p>
+                                                    <p>BEAUTY,Nikaweratiya,SL</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -196,7 +192,7 @@
                                             <li>
                                                 <div class="icon"><i class="fas fa-envelope-open"></i></div>
                                                 <div class="content">
-                                                    <p> petcocarecenter@gmail.com</p>
+                                                    <p> beauty@gmail.com</p>
                                                 </div>
                                             </li>
                                         </ul>

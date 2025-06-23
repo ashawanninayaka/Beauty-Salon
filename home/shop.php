@@ -19,41 +19,37 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Petco </title>
+        <title>Beauty </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="shortcut icon" type="/../Pet/image/x-icon" href="/../Pet/img/favicon.png">
+		
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
-        <link rel="stylesheet" href="/../Pet/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/../Pet/css/animate.min.css">
-        <link rel="stylesheet" href="/../Pet/css/magnific-popup.css">
-        <link rel="stylesheet" href="/../Pet/css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="/../Pet/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="/../Pet/css/nice-select.css">
-        <link rel="stylesheet" href="/../Pet/css/flaticon.css">
-        <link rel="stylesheet" href="/../Pet/css/odometer.css">
-        <link rel="stylesheet" href="/../Pet/css/jquery-ui.css">
-        <link rel="stylesheet" href="/../Pet/css/slick.css">
-        <link rel="stylesheet" href="/../Pet/css/default.css">
-        <link rel="stylesheet" href="/../Pet/css/style.css">
-        <link rel="stylesheet" href="/../Pet/css/responsive.css">
+        <link rel="stylesheet" href="/../Beauty/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/animate.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/magnific-popup.css">
+        <link rel="stylesheet" href="/../Beauty/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/nice-select.css">
+        <link rel="stylesheet" href="/../Beauty/css/flaticon.css">
+        <link rel="stylesheet" href="/../Beauty/css/odometer.css">
+        <link rel="stylesheet" href="/../Beauty/css/jquery-ui.css">
+        <link rel="stylesheet" href="/../Beauty/css/slick.css">
+        <link rel="stylesheet" href="/../Beauty/css/default.css">
+        <link rel="stylesheet" href="/../Beauty/css/style.css">
+        <link rel="stylesheet" href="/../Beauty/css/responsive.css">
      
            <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="/../Pet/css/style2.css">
+    <link rel="stylesheet" href="/../Beauty/css/style2.css">
    
     <!-- Responsive css -->
    
     </head>
     <body>
 
-        <!-- Preloader -->
-        <div id="preloader">
-            <img src="/../Pet/img/preloader.gif" alt="">
-        </div>
-        <!-- Preloader-end -->
+        
 
 		<!-- Scroll-top -->
         <button class="scroll-top scroll-to-target" data-target="html">
@@ -70,7 +66,7 @@
                             <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
                             <div class="menu-wrap">
                                 <nav class="menu-nav show">
-                                    <div class="logo"><a href="index.html"><img src="/../Pet/img/logo/logo.png" alt=""></a></div>
+                                    <div class="logo"><a href="index.html"><img src="/../Beauty/img/logo/logo.png" alt=""></a></div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
                                             <li ><a href="home.php">Home</a></li>
@@ -88,7 +84,7 @@
                                             <li><a href="shop.php"><i class="fa fa-shopping-cart"></i></a></li>
                                           
                                                 
-                                            <li class="header-btn"><a href="/../Pet/" class="btn">Logout  <img src="/../Pet/img/icon/w_pawprint.png" alt=""></a></li>
+                                            <li class="header-btn"><a href="/../Beauty/" class="btn">Logout  <img src="/../Beauty/img/icon/w_pawprint.png" alt=""></a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -98,7 +94,7 @@
                                 <nav class="menu-box">
                                     
                                     <div class="close-btn"><i class="fas fa-times"></i></div>
-                                    <div class="nav-logo"><a href="index.html"><img src="/../Pet/img/logo/logo.png" alt="" title=""></a>
+                                    <div class="nav-logo"><a href="index.html"><img src="/../Beauty/img/logo/logo.png" alt="" title=""></a>
                                     </div>
                                     <div class="menu-outer">
                                         
@@ -112,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="header-shape" data-background="/../Pet/img/bg/header_shape.png"></div>
+                <div class="header-shape" data-background="/../Beauty/img/bg/header_shape.png"></div>
             </div>
           
         </header> 
@@ -123,7 +119,7 @@
         <main>
 
             <!-- breadcrumb-area -->
-            <section class="breadcrumb-area breadcrumb-bg" data-background="/../Pet/img/bg/breadcrumb_bg.jpg">
+            <section class="breadcrumb-area breadcrumb-bg" data-background="/../Beauty/img/bg/breadcrumb_bg.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -248,22 +244,22 @@
 
 
 		<!-- JS here -->
-        <script src="/../Pet/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="/../Beauty/js/vendor/jquery-3.6.0.min.js"></script>
 
-        <script src="/../Pet/js/isotope.pkgd.min.js"></script>
-        <script src="/../Pet/js/imagesloaded.pkgd.min.js"></script>
-        <script src="/../Pet/js/jquery.magnific-popup.min.js"></script>
-        <script src="/../Pet/js/owl.carousel.min.js"></script>
-        <script src="/../Pet/js/jquery.odometer.min.js"></script>
-        <script src="/../Pet/js/jquery.nice-select.min.js"></script>
-        <script src="/../Pet/js/jquery-ui.min.js"></script>
-        <script src="/../Pet/js/jquery.appear.js"></script>
-        <script src="/../Pet/js/slick.min.js"></script>
-        <script src="/../Pet/js/wow.min.js"></script>
-        <script src="/../Pet/js/plugins.js"></script>
-        <script src="/../Pet/js/main.js"></script>
-        <script src="/../Pet/js/plugins2.js"></script>
-        <script src="/../Pet/js/main2.js"></script>
+        <script src="/../Beauty/js/isotope.pkgd.min.js"></script>
+        <script src="/../Beauty/js/imagesloaded.pkgd.min.js"></script>
+        <script src="/../Beauty/js/jquery.magnific-popup.min.js"></script>
+        <script src="/../Beauty/js/owl.carousel.min.js"></script>
+        <script src="/../Beauty/js/jquery.odometer.min.js"></script>
+        <script src="/../Beauty/js/jquery.nice-select.min.js"></script>
+        <script src="/../Beauty/js/jquery-ui.min.js"></script>
+        <script src="/../Beauty/js/jquery.appear.js"></script>
+        <script src="/../Beauty/js/slick.min.js"></script>
+        <script src="/../Beauty/js/wow.min.js"></script>
+        <script src="/../Beauty/js/plugins.js"></script>
+        <script src="/../Beauty/js/main.js"></script>
+        <script src="/../Beauty/js/plugins2.js"></script>
+        <script src="/../Beauty/js/main2.js"></script>
 
 
 

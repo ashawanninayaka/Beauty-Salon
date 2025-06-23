@@ -38,11 +38,11 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Petco </title>
+        <title>Beauty </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+		
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
@@ -62,11 +62,7 @@
     </head>
     <body>
 
-        <!-- Preloader -->
-        <div id="preloader">
-            <img src="img/preloader.gif" alt="">
-        </div>
-        <!-- Preloader-end -->
+        
 
 		<!-- Scroll-top -->
         <button class="scroll-top scroll-to-target" data-target="html">
@@ -241,7 +237,7 @@
                                     <img src="img/images/breeder_details.jpg" alt="">
                                 </div>
                                 <h4 class="title">Join Us</h4>
-                                <p>We are a team of passionate animal lovers who are dedicated to providing the best possible care for your beloved pets.</p>
+                                <p>We are a friendly team dedicated to bringing out your beauty</p>
                                
                             </div>
                         </div>

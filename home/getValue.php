@@ -38,19 +38,7 @@
                                                 '.$row['quantity'].' 
                                             </li>
                                            
-                                            <li>
-                                            <strong>Categories:</strong> 
-                                            <span>';
-                                                $category = $row['category'];
-                                                if ($category == "food") {
-                                                    echo "Food";
-                                                } elseif ($category == "other") {
-                                                    echo "Other";
-                                                } else {
-                                                    echo "Medicine";
-                                                }
-                                                echo '</span>
-                                                </li>
+                                            
                                          </ul>
                                     </div>
                                     <div class="ltn__product-details-menu-2">

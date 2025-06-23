@@ -1,4 +1,4 @@
-<footer>
+<footer >
             <div class="footer-top-area footer-bg">
                 <div class="container">
                     <div class="row justify-content-between">
@@ -8,7 +8,7 @@
                                     <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
                                 </div>
                                 <div class="footer-text">
-                                    <p>Best Place For Your Pets.</p>
+                                    <p>Best Place For Your Beauty.</p>
                                 </div>
                                 <div class="footer-contact">
                                     <div class="icon"><i class="fas fa-headphones"></i></div>
@@ -45,44 +45,30 @@
                         </div>
                         <div class="col-2">
                             <div class="footer-widget">
-                                <h4 class="fw-title">Our Services</h4>
-                                <div class="fw-link">
-                                    <ul>
-                                        <li><a href="services.php">Veterinary Care</a></li>
-                                        <li><a href="services.php">Specialized Care</a></li>
-                                        <li><a href="services.php">Vaccinations</a></li>
-                                        <li><a href="services.php">Routine Check-ups</a></li>
-                                       
-                                    </ul>
-                                </div>
+                                
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="footer-widget">
                               
-                                <div class="fw-insta">
+                                <div class="">
                                     <ul>
-                                        <li><a href="#"><img src="img/images/insta_img01.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/images/insta_img02.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/images/insta_img03.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/images/insta_img04.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/images/insta_img05.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/images/insta_img06.png" alt=""></a></li>
+                                        <li><a href="#"><img src="img/images/breeder_gallery01xx.jpg" alt=""></a></li>
+                                        
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="footer-shape"><img src="img/images/footer_shape01.png" alt=""></div>
-                <div class="footer-shape shape-two"><img src="img/images/footer_shape02.png" alt=""></div>
+               
             </div>
             <div class="copyright-area">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">
                             <div class="copyright-text">
-                                <p>All Rights Reserved &copy; 2021 Petco.</p>
+                                <p>All Rights Reserved &copy; 2024 Beauty.</p>
                             </div>
                         </div>
                         

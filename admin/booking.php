@@ -8,11 +8,11 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Petco Admin</title>
+        <title>Beauty Admin</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description">
         <meta content="Coderthemes" name="author">
-        <link rel="shortcut icon" type="/../Pet/image/x-icon" href="/../Pet/img/favicon.png">
+        <link rel="shortcut icon" type="/../Beauty/image/x-icon" href="/../Beauty/img/favicon.png">
         <!-- App favicon -->
        
 
@@ -67,12 +67,7 @@
                                 <span> Users </span>
                             </a>
                         </li>
-                        <li class="side-nav-item">
-                            <a href="pet.php" class="side-nav-link">
-                                <i class="uil-calender"></i>
-                                <span> Pet Details</span>
-                            </a>
-                        </li>
+                        
                         <li class="side-nav-item">
                             <a href="booking.php" class="side-nav-link">
                                 <i class="uil-comments"></i>
@@ -92,7 +87,7 @@
                             </a>
                         </li>
                         <li class="side-nav-item">
-                            <a href="/../Pet/" class="side-nav-link">
+                            <a href="/../Beauty/" class="side-nav-link">
                                 <i class="mdi mdi-logout me-1"></i>
                                 <span>Logout </span>
                             </a>
@@ -135,26 +130,7 @@
 
                        
 
-                            <li class="dropdown notification-list">
-                                <a class="nav-link dropdown-toggle nav-user arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                    <span class="account-user-avatar"> 
-                                        <img src="/../Pet/img/favicon.png" alt="user-image" class="rounded-circle">
-                                    </span>
-                                    
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated topbar-dropdown-menu profile-dropdown">
-                                
-
-                          
-                                    
-
-                                    <!-- item-->
-                                    <a href="/../Pet/" class="dropdown-item notify-item">
-                                        <i class="mdi mdi-logout me-1"></i>
-                                        <span>Logout</span>
-                                    </a>
-                                </div>
-                            </li>
+                            
 
                         </ul>
                         <button class="button-menu-mobile open-left">
@@ -192,7 +168,7 @@
 
                         <div class="card">
                                         <div class="card-body">
-                                        <h4 class="header-title">Vaccination Booking</h4>
+                                        <h4 class="header-title">Face Threading Booking</h4>
                                         <div class="tab-pane show active" id="hoverable-rows-preview">
                                                 <div class="table-responsive-sm">
                                                     <table class="table table-hover table-centered mb-0">
@@ -263,7 +239,7 @@
                                             </div>
                                             <div class="card">
                                         <div class="card-body">
-                                        <h4 class="header-title">Other Medical Problems Booking</h4>
+                                        <h4 class="header-title">Professional Makeup Services Booking</h4>
                                         <div class="tab-pane show active" id="hoverable-rows-preview">
                                                 <div class="table-responsive-sm">
                                                     <table class="table table-hover table-centered mb-0">
@@ -286,7 +262,7 @@
                                                          
                                                           
                                                          $loop = 1;
-                                                         $query = mysqli_query($con, "SELECT * FROM availabletimes,user,bookingother,services WHERE  bookingother.user = user.nic AND bookingother.time = availabletimes.id AND services.id = bookingother.serviceType   ");
+                                                         $query = mysqli_query($con, "SELECT * FROM availabletimes,user,bookingdressing,services WHERE  bookingdressing.user = user.nic AND bookingdressing.time = availabletimes.id AND services.id = bookingdressing.serviceType   ");
                                                          if($query){
                                                              while($row = mysqli_fetch_assoc($query)){
                                                                  if($row['date'] ==  NULL){
@@ -333,7 +309,7 @@
                                              </div> <!-- end preview-->
                                              <div class="card">
                                         <div class="card-body">
-                                        <h4 class="header-title">Grooming Booking</h4>
+                                        <h4 class="header-title">Hair Cutting Services Booking</h4>
                                         <div class="tab-pane show active" id="hoverable-rows-preview">
                                                 <div class="table-responsive-sm">
                                                     <table class="table table-hover table-centered mb-0">
@@ -356,7 +332,7 @@
                                                          
                                                           
                                                          $loop = 1;
-                                                         $query = mysqli_query($con, "SELECT * FROM availabletimes,user,bookinggrooming,services WHERE  bookinggrooming.user = user.nic AND bookinggrooming.time = availabletimes.id AND services.id = bookinggrooming.serviceType   ");
+                                                         $query = mysqli_query($con, "SELECT * FROM availabletimes,user,bookinghaircutting,services WHERE  bookinghaircutting.user = user.nic AND bookinghaircutting.time = availabletimes.id AND services.id = bookinghaircutting.serviceType   ");
                                                          if($query){
                                                              while($row = mysqli_fetch_assoc($query)){
                                                                  if($row['date'] ==  NULL){
@@ -402,7 +378,7 @@
                                              </div> <!-- end preview-->
                                              <div class="card">
                                         <div class="card-body">
-                                        <h4 class="header-title">Testing & Diagnosisg Booking</h4>
+                                        <h4 class="header-title">Manicure & Pedicure Services Booking</h4>
                                         <div class="tab-pane show active" id="hoverable-rows-preview">
                                                 <div class="table-responsive-sm">
                                                     <table class="table table-hover table-centered mb-0">
@@ -425,7 +401,7 @@
                                                          
                                                           
                                                          $loop = 1;
-                                                         $query = mysqli_query($con, "SELECT * FROM availabletimes,user,bookingtesting,services WHERE  bookingtesting.user = user.nic AND bookingtesting.time = availabletimes.id AND services.id =bookingtesting.serviceType   ");
+                                                         $query = mysqli_query($con, "SELECT * FROM availabletimes,user,bookingmanicurepedicure,services WHERE  bookingmanicurepedicure.user = user.nic AND bookingmanicurepedicure.time = availabletimes.id AND services.id =bookingmanicurepedicure.serviceType   ");
                                                          if($query){
                                                              while($row = mysqli_fetch_assoc($query)){
                                                                  if($row['date'] ==  NULL){
@@ -469,75 +445,7 @@
                                             </div> <!-- end preview-->
                                             </div>
                                              </div> <!-- end preview-->
-                                             <div class="card">
-                                        <div class="card-body">
-                                        <h4 class="header-title">Specialized Care Booking</h4>
-                                        <div class="tab-pane show active" id="hoverable-rows-preview">
-                                                <div class="table-responsive-sm">
-                                                    <table class="table table-hover table-centered mb-0">
-                                                        <thead>
-                                                        <tr>
-                                                                <th>No.</th>
-                                                                <th>B_ID</th>
-                                                                <th>User Name</th>
-                                                               
-                                                                <th>Category</th>
-                                                                <th>Age</th>
-                                                                <th>Date</th>
-                                                                <th>Time</th>
-                                                                <th>Status</th>
-                                                                <th >Action</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                        <?php
-                                                         
-                                                          
-                                                         $loop = 1;
-                                                         $query = mysqli_query($con, "SELECT * FROM availabletimes,user,bookingsp,services WHERE  bookingsp.user = user.nic AND bookingsp.time = availabletimes.id AND services.id = bookingsp.serviceType   ");
-                                                         if($query){
-                                                             while($row = mysqli_fetch_assoc($query)){
-                                                                 if($row['date'] ==  NULL){
-                                                                     continue;
-                                                                 }
-                                                                 else{
-                                                                 echo '
-                                                                     <tr>
-                                                                         <td>'.$loop.'</td>
-                                                                      
-                                                                         <td>'.$row['bookingid'].'</td>
-                                                                         <td>'.$row['name'].'</td>
-                                                                         
-                                                                         <td>'.$row['category'].'</td>
-                                                                         <td>'.$row['age'].'</td>
-                                                                         <td>'.$row['date'].'</td>
-                                                                         <td>'.$row['bookingtime'].'</td>
-                                                                         <td >'.$row['status'].'</td>
-                                                                        
-                                                                         <td><a href="delete.php?comsp='.$row['bookingid'].'"<button class="con">CONFIRM</button></a>
-                                                                         
-                                                                         <a href="delete.php?cancelsp='.$row['bookingid'].'"<button class="delete">REJECT</button></a>
-                                                                         
-                                                                         </td>
-                                                                         
-                                                                     </tr>';
-                                                                     
-                                                                 // loop here
-                                                                 /* multi line comment*/    
-                                                                 ++$loop;  
-                                                                 }
-                                                             }
-                                                             }
-                                                             
-                                                     ?>  
-                                                                     <a href="" class='action-icon'> <i class='fa fa-file'></i></a>
-                                                          
-                                                        </tbody>
-                                                    </table>
-                                                </div> <!-- end table-responsive <td class='table-action'><a href='delete.php?id=".$row['nic']."'class='action-icon'<i class='fa fa-file'></i></a>-->                     
-                                            </div> <!-- end preview-->
-                                            </div>
-                                             </div> <!-- end preview-->
+                                             
                                             </div>
                                             </div>
                                             
@@ -559,7 +467,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-6">
-                                <script>document.write(new Date().getFullYear())</script> © Hyper - PECTCO
+                                <script>document.write(new Date().getFullYear())</script> © Hyper - 2024 Beauty
                             </div>
                             
                         </div>

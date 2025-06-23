@@ -3,6 +3,6 @@
         "localhost",
         "root",
         "",
-        "pet"
+        "beautynew"
     );
 ?>

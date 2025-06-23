@@ -8,11 +8,11 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Petco Admin</title>
+        <title>Beauty Admin</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description">
         <meta content="Coderthemes" name="author">
-        <link rel="shortcut icon" type="/../Pet/image/x-icon" href="/../Pet/img/favicon.png">
+        <link rel="shortcut icon" type="/../Beauty/image/x-icon" href="/../Beauty/img/favicon.png">
         <!-- App favicon -->
        
 
@@ -67,12 +67,7 @@
                                 <span> Users </span>
                             </a>
                         </li>
-                        <li class="side-nav-item">
-                            <a href="pet.php" class="side-nav-link">
-                                <i class="uil-calender"></i>
-                                <span> Pet Details</span>
-                            </a>
-                        </li>
+                       
                         <li class="side-nav-item">
                             <a href="booking.php" class="side-nav-link">
                                 <i class="uil-comments"></i>
@@ -92,7 +87,7 @@
                             </a>
                         </li>
                         <li class="side-nav-item">
-                            <a href="/../Pet/" class="side-nav-link">
+                            <a href="/../Beauty/" class="side-nav-link">
                                 <i class="mdi mdi-logout me-1"></i>
                                 <span>Logout </span>
                             </a>
@@ -135,27 +130,7 @@
 
                        
 
-                            <li class="dropdown notification-list">
-                                <a class="nav-link dropdown-toggle nav-user arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                    <span class="account-user-avatar"> 
-                                        <img src="/../Pet/img/favicon.png" alt="user-image" class="rounded-circle">
-                                    </span>
-                                    
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated topbar-dropdown-menu profile-dropdown">
-                                
-
-                          
-                                    
-
-                                    <!-- item-->
-                                    <a href="/../Pet/" class="dropdown-item notify-item">
-                                        <i class="mdi mdi-logout me-1"></i>
-                                        <span>Logout</span>
-                                    </a>
-                                </div>
-                            </li>
-
+                            
                         </ul>
                         <button class="button-menu-mobile open-left">
                             <i class="mdi mdi-menu"></i>
@@ -257,7 +232,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-6">
-                                <script>document.write(new Date().getFullYear())</script> © Hyper - PECTCO
+                                <script>document.write(new Date().getFullYear())</script> © Hyper - 2024 Beauty
                             </div>
                             
                         </div>

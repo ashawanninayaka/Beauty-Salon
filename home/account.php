@@ -33,33 +33,33 @@
 <head>
 <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Petco</title>
+        <title>Beauty</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="shortcut icon" type="/../Pet/image/x-icon" href="/../Pet/img/favicon.png">
+		
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
-        <link rel="stylesheet" href="/../Pet/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/../Pet/css/animate.min.css">
-        <link rel="stylesheet" href="/../Pet/css/magnific-popup.css">
-        <link rel="stylesheet" href="/../Pet/css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="/../Pet/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="/../Pet/css/nice-select.css">
-        <link rel="stylesheet" href="/../Pet/css/flaticon.css">
-        <link rel="stylesheet" href="/../Pet/css/odometer.css">
-        <link rel="stylesheet" href="/../Pet/css/jquery-ui.css">
-        <link rel="stylesheet" href="/../Pet/css/slick.css">
-        <link rel="stylesheet" href="/../Pet/css/default.css">
-        <link rel="stylesheet" href="/../Pet/css/style.css">
-        <link rel="stylesheet" href="/../Pet/css/responsive.css">
+        <link rel="stylesheet" href="/../Beauty/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/animate.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/magnific-popup.css">
+        <link rel="stylesheet" href="/../Beauty/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/nice-select.css">
+        <link rel="stylesheet" href="/../Beauty/css/flaticon.css">
+        <link rel="stylesheet" href="/../Beauty/css/odometer.css">
+        <link rel="stylesheet" href="/../Beauty/css/jquery-ui.css">
+        <link rel="stylesheet" href="/../Beauty/css/slick.css">
+        <link rel="stylesheet" href="/../Beauty/css/default.css">
+        <link rel="stylesheet" href="/../Beauty/css/style.css">
+        <link rel="stylesheet" href="/../Beauty/css/responsive.css">
        
   
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="/../Pet/css/style2.css">
+    <link rel="stylesheet" href="/../Beauty/css/style2.css">
     <!-- Responsive css -->
-    <link rel="stylesheet" href="/../Pet/css/responsive2.css">
+    <link rel="stylesheet" href="/../Beauty/css/responsive2.css">
 </head>
 
 <body>
@@ -71,11 +71,6 @@
 
 
 
-    <!-- Preloader -->
-    <div id="preloader">
-            <img src="/../Pet/img/preloader.gif" alt="">
-        </div>
-        <!-- Preloader-end -->
 
 		<!-- Scroll-top -->
         <button class="scroll-top scroll-to-target" data-target="html">
@@ -91,7 +86,7 @@
                             <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
                             <div class="menu-wrap">
                                 <nav class="menu-nav show">
-                                    <div class="logo"><a href="index.html"><img src="/../Pet/img/logo/logo.png" alt=""></a></div>
+                                    <div class="logo"><a href="index.html"><img src="/../Beauty/img/logo/logo.png" alt=""></a></div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
                                             <li ><a href="home.php">Home</a></li>
@@ -109,7 +104,7 @@
                                             <li><a href="shop.php"><i class="fa fa-shopping-cart"></i></a></li>
                                           
                                                 
-                                            <li class="header-btn"><a href="/../Pet/" class="btn">Logout  <img src="/../Pet/img/icon/w_pawprint.png" alt=""></a></li>
+                                            <li class="header-btn"><a href="/../Beauty/" class="btn">Logout  <img src="/../Beauty/img/icon/w_pawprint.png" alt=""></a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -118,7 +113,7 @@
                             <div class="mobile-menu">
                                 <nav class="menu-box">
                                     <div class="close-btn"><i class="fas fa-times"></i></div>
-                                    <div class="nav-logo"><a href="index.html"><img src="/../Pet/img/logo/logo.png" alt="" title=""></a>
+                                    <div class="nav-logo"><a href="index.html"><img src="/../Beauty/img/logo/logo.png" alt="" title=""></a>
                                     </div>
                                     <div class="menu-outer">
                                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -131,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="header-shape" data-background="/../Pet/img/bg/header_shape.png"></div>
+                <div class="header-shape" data-background="/../Beauty/img/bg/header_shape.png"></div>
             </div>
           
         </header>
@@ -161,7 +156,7 @@
                                         <div class="nav">
                                             <a class="active show" data-toggle="tab" href="#liton_tab_1_1">Dashboard <i class="fas fa-home"></i></a>
                                            
-                                            <a data-toggle="tab" href="#petD">Pet  Details <i class="fas fa-arrow-down"></i></a>
+                                          
                                             <a data-toggle="tab" href="#booking">Booking <i class="fas fa-arrow-down"></i></a>
                                             <a data-toggle="tab" href="#buy">Buy Product <i class="fas fa-arrow-down"></i></a>
                                         
@@ -174,7 +169,7 @@
                                         <div class="tab-pane fade active show" id="liton_tab_1_1">
                                             <div class="ltn__myaccount-tab-content-inner">
                                                 <p>Hello <strong><?php echo $name; ?></strong> </p>
-                                                <p>From your account dashboard you can view your pet details,booking details.</p>
+                                                <p>From your account dashboard you can view your details,booking details.</p>
                                             </div>
                                         </div>
                                         <div class="tab-pane fade" id="ad">
@@ -261,7 +256,7 @@
                                         <div class="ltn__myaccount-tab-content-inner">
                                         <div class="card">
                                         <div class="card-body">
-                                        <h4 class="header-title">Vaccination Booking</h4>
+                                        <h4 class="header-title">Face Threading Booking</h4>
                                         <div class="tab-pane show active" id="hoverable-rows-preview">
                                                 <div class="table-responsive-sm">
                                                     <table class="table table-hover table-centered mb-0">
@@ -325,7 +320,7 @@
                                              <br>
                                              <div class="card">
                                         <div class="card-body">
-                                        <h4 class="header-title">Other Medical Problems Booking</h4>
+                                        <h4 class="header-title">Hair Cutting Services Booking</h4>
                                         <div class="tab-pane show active" id="hoverable-rows-preview">
                                                 <div class="table-responsive-sm">
                                                     <table class="table table-hover table-centered mb-0">
@@ -347,7 +342,7 @@
                                                          
                                                           
                                                          $loop = 1;
-                                                         $query = mysqli_query($con, "SELECT * FROM availabletimes,user,bookingother,services WHERE  bookingother.user = user.nic AND bookingother.time = availabletimes.id AND services.id = bookingother.serviceType AND user = $id  ");
+                                                         $query = mysqli_query($con, "SELECT * FROM availabletimes,user,bookinghaircutting,services WHERE  bookinghaircutting.user = user.nic AND bookinghaircutting.time = availabletimes.id AND services.id = bookinghaircutting.serviceType AND user = $id  ");
                                                          if($query){
                                                              while($row = mysqli_fetch_assoc($query)){
                                                                  if($row['date'] ==  NULL){
@@ -389,7 +384,7 @@
                                              <br>
                                              <div class="card">
                                         <div class="card-body">
-                                        <h4 class="header-title">Grooming Booking</h4>
+                                        <h4 class="header-title">Dressing Hair Makeup Booking</h4>
                                         <div class="tab-pane show active" id="hoverable-rows-preview">
                                                 <div class="table-responsive-sm">
                                                     <table class="table table-hover table-centered mb-0">
@@ -411,7 +406,7 @@
                                                          
                                                           
                                                          $loop = 1;
-                                                         $query = mysqli_query($con, "SELECT * FROM availabletimes,user,bookinggrooming,services WHERE  bookinggrooming.user = user.nic AND bookinggrooming.time = availabletimes.id AND services.id = bookinggrooming.serviceType AND user = $id  ");
+                                                         $query = mysqli_query($con, "SELECT * FROM availabletimes,user,bookingdressing,services WHERE  bookingdressing.user = user.nic AND bookingdressing.time = availabletimes.id AND services.id = bookingdressing.serviceType AND user = $id  ");
                                                          if($query){
                                                              while($row = mysqli_fetch_assoc($query)){
                                                                  if($row['date'] ==  NULL){
@@ -453,7 +448,7 @@
                                              <br>
                                              <div class="card">
                                         <div class="card-body">
-                                        <h4 class="header-title">Testing & Diagnosisg Booking</h4>
+                                        <h4 class="header-title">Manicure & Pedicure Services Booking</h4>
                                         <div class="tab-pane show active" id="hoverable-rows-preview">
                                                 <div class="table-responsive-sm">
                                                     <table class="table table-hover table-centered mb-0">
@@ -475,7 +470,7 @@
                                                          
                                                           
                                                          $loop = 1;
-                                                         $query = mysqli_query($con, "SELECT * FROM availabletimes,user,bookingtesting,services WHERE  bookingtesting.user = user.nic AND bookingtesting.time = availabletimes.id AND services.id = bookingtesting.serviceType AND user = $id  ");
+                                                         $query = mysqli_query($con, "SELECT * FROM availabletimes,user,bookingmanicurepedicure,services WHERE  bookingmanicurepedicure.user = user.nic AND bookingmanicurepedicure.time = availabletimes.id AND services.id = bookingmanicurepedicure.serviceType AND user = $id  ");
                                                          if($query){
                                                              while($row = mysqli_fetch_assoc($query)){
                                                                  if($row['date'] ==  NULL){
@@ -515,188 +510,13 @@
                                             
                                              </div> <!-- end preview-->
                                              <br>
-                                             <div class="card">
-                                        <div class="card-body">
-                                        <h4 class="header-title">Specialized Care Booking</h4>
-                                        <div class="tab-pane show active" id="hoverable-rows-preview">
-                                                <div class="table-responsive-sm">
-                                                    <table class="table table-hover table-centered mb-0">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>No.</th>
-                                                                <th>B_ID</th>
-                                                              
-                                                                <th>Category</th>
-                                                                <th>Age</th>
-                                                                <th>Date</th>
-                                                                <th>Time</th>
-                                                                <th>Status</th>
-                                                                <th>Action</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                        <?php
-                                                         
-                                                          
-                                                         $loop = 1;
-                                                         $query = mysqli_query($con, "SELECT * FROM availabletimes,user,bookingsp,services WHERE  bookingsp.user = user.nic AND bookingsp.time = availabletimes.id AND services.id = bookingsp.serviceType AND user = $id  ");
-                                                         if($query){
-                                                             while($row = mysqli_fetch_assoc($query)){
-                                                                 if($row['date'] ==  NULL){
-                                                                     continue;
-                                                                 }
-                                                                 else{
-                                                                 echo '
-                                                                     <tr>
-                                                                         <td>'.$loop.'</td>
-                                                                      
-                                                                         <td>'.$row['bookingid'].'</td>
-                                                                       
-                                                                         <td>'.$row['category'].'</td>
-                                                                         <td>'.$row['age'].'</td>
-                                                                         <td>'.$row['date'].'</td>
-                                                                         <td>'.$row['bookingtime'].'</td>
-                                                                         <td>'.$row['status'].'</td>
-                                                                        
-                                                                         <td><a href="delete.php?cancelsp='.$row['bookingid'].'"<button class="delete">DELETE</button></a></td>
-                                                                     </tr>';
-                                                                     
-                                                                 // loop here
-                                                                 /* multi line comment*/    
-                                                                 ++$loop;  
-                                                                 }
-                                                             }
-                                                             }
-                                                             
-                                                     ?>  
-                                                        </tbody>
-                                                    </table>
-                                                </div> <!-- end table-responsive-->   
-                                                        
-                                            </div> <!-- end preview-->
-                                            
-                                            </div>
-                                            
-                                             </div> <!-- end preview-->
+                             
                                             </div>
                                             
                                         </div>
                                         
                                         
-                                        <div class="tab-pane fade" id="petD">
-                                            <div class="ltn__myaccount-tab-content-inner">
-                                            <div class="card">
-                                        <div class="card-body">
-                                        <div class="tab-pane show active" id="hoverable-rows-preview">
-                                                <div class="table-responsive-sm">
-                                                    <table class="table table-hover table-centered mb-0">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>No.</th>
-                                                                <th>Pet ID</th>
-                                                                <th>Catagory</th>
-                                                                <th>Breeds</th>
-                                                                <th>Name</th>
-                                                                <th>Age</th>
-                                                                <th>Gender</th>
-                                                                <th>Action</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                        <?php
-                                                        $loop = 1;
-                                                            $query = mysqli_query($con, "SELECT * FROM pets WHERE nic='$id'");
-                                                            while($row = mysqli_fetch_assoc($query))
-                                                            {
-                                                                echo "<tr>
-                                                                    <td>".$loop."</td>
-                                                                    <td>".$row['pet_id']."</td>
-                                                                    <td>".$row['category']."</td>
-                                                                    <td>".$row['breed']."</td>
-                                                                    <td>".$row['p_name']."</td>
-                                                                    <td>".$row['age']."</td>
-                                                                    <td>".$row['gender']."</td>
-                                                                    <td class='table-action'><a href='delete.php?pet_id=".$row['pet_id']."'<button class='delete'>REMOVE</button></a>
-                                                                    
-                                                                   
-                                                                    </td>
-                                                                    
-                                                                    
-                                                                </tr>";
-                                                                ++$loop;
-                                                            }
-                                                        ?>
-                                                        
-                                                        </tbody>
-                                                    </table>
-                                                </div> <!-- end table-responsive-->  
-                                                                   
-                                            </div> <!-- end preview-->
-                                            </div>
-                                            
-                                             </div> <!-- end preview-->
-                                            </div>
-                                            <div class="comment-reply-box">
-                                <h5 class="title">Add Your Pet Details</h5>
-                                <aside class="breeder-sidebar">
-                                <div class="widget breeder-widget">
-                                   
-                                    <form action="#" class="sidebar-find-pets" method ="POST">
-                                        
-                                       
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <div class="form-grp">
-                                                    
-                                                    <input type="text" placeholder="Pet Category" name="category" id="contact-petc"onkeyup="validatePetc()">
-                                                    <span id ="petc-error"></span>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="form-grp">
-                                                    
-                                                    <input type="text" placeholder="Breed" name="breed" id="contact-breed"onkeyup="validateBreed()">
-                                                    <span id ="breed-error"></span>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="form-grp">
-                                                    
-                                                    <input type="text" placeholder="Name" name="p_name" id="contact-pname"onkeyup="validatePname()">
-                                                    <span id ="pname-error"></span>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                            <div class="form-grp">
-                                                    
-                                                    <input type="text" placeholder="Pet Age" name="age"id="contact-age"onkeyup="validateAge()">
-                                                    <span id ="age-error"></span>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="form-grp">
-                                               
-                                            <select name="gender" class="selected" name="gender">
-                                            <option data-display>Gender
-                                                <option value="female">Female</option>
-                                                <option value="male">Male</option>    
-                                            </select>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                       
-                                       
-                                       
-                                        <button class="btn" name="addpet">Submit </button>
-                                       
-                                    </form>
-                                </div>
-                                
-                            </aside>
-                               
-                            </div>
-                        </div>
+                             
                                             </div>
                                         </div>
                                         
@@ -719,24 +539,24 @@
 <!-- Body main wrapper end -->
     
 		<!-- JS here -->
-        <script src="/../Pet/js/vendor/jquery-3.6.0.min.js"></script>
-        <script src="/../Pet/js/bootstrap.min.js"></script>
-        <script src="/../Pet/js/isotope.pkgd.min.js"></script>
-        <script src="/../Pet/js/imagesloaded.pkgd.min.js"></script>
-        <script src="/../Pet/js/jquery.magnific-popup.min.js"></script>
-        <script src="/../Pet/js/owl.carousel.min.js"></script>
-        <script src="/../Pet/js/jquery.odometer.min.js"></script>
-        <script src="/../Pet/js/jquery.nice-select.min.js"></script>
-        <script src="/../Pet/js/jquery-ui.min.js"></script>
-        <script src="/../Pet/js/jquery.appear.js"></script>
-        <script src="/../Pet/js/slick.min.js"></script>
-        <script src="/../Pet/js/wow.min.js"></script>
-        <script src="/../Pet/js/plugins.js"></script>
-        <script src="/../Pet/js/main.js"></script>
-        <script src="/../Pet/js/script.js"></script>
+        <script src="/../Beauty/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="/../Beauty/js/bootstrap.min.js"></script>
+        <script src="/../Beauty/js/isotope.pkgd.min.js"></script>
+        <script src="/../Beauty/js/imagesloaded.pkgd.min.js"></script>
+        <script src="/../Beauty/js/jquery.magnific-popup.min.js"></script>
+        <script src="/../Beauty/js/owl.carousel.min.js"></script>
+        <script src="/../Beauty/js/jquery.odometer.min.js"></script>
+        <script src="/../Beauty/js/jquery.nice-select.min.js"></script>
+        <script src="/../Beauty/js/jquery-ui.min.js"></script>
+        <script src="/../Beauty/js/jquery.appear.js"></script>
+        <script src="/../Beauty/js/slick.min.js"></script>
+        <script src="/../Beauty/js/wow.min.js"></script>
+        <script src="/../Beauty/js/plugins.js"></script>
+        <script src="/../Beauty/js/main.js"></script>
+        <script src="/../Beauty/js/script.js"></script>
     
     <!-- Main JS -->
-    <script src="/../Pet/js/main2.js"></script>
+    <script src="/../Beauty/js/main2.js"></script>
   
 </body>
 

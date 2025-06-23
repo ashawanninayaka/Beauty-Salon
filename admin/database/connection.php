@@ -2,7 +2,7 @@
     $server = "localhost";
     $user = "root";
     $password = "";
-    $database = "pet";
+    $database = "beautynew";
 
     $con = new mysqli($server, $user, $password, $database);
     

@@ -40,7 +40,7 @@
     }
     else if(isset($_GET['cancelother'])){
         $nic = $_GET['cancelother'];
-        $query = mysqli_query($con, "DELETE FROM bookingother WHERE bookingid='$nic'");
+        $query = mysqli_query($con, "DELETE FROM bookingdressing WHERE bookingid='$nic'");
 
         if($query){
             header("location: booking.php");
@@ -49,7 +49,7 @@
     }
     else if(isset($_GET['cancelgr'])){
         $nic = $_GET['cancelgr'];
-        $query = mysqli_query($con, "DELETE FROM bookinggrooming WHERE bookingid='$nic'");
+        $query = mysqli_query($con, "DELETE FROM bookinghaircutting WHERE bookingid='$nic'");
 
         if($query){
             header("location: booking.php");
@@ -58,22 +58,14 @@
     }
     else if(isset($_GET['canceltesting'])){
         $nic = $_GET['canceltesting'];
-        $query = mysqli_query($con, "DELETE FROM bookingtesting WHERE bookingid='$nic'");
+        $query = mysqli_query($con, "DELETE FROM bookingmanicurepedicure WHERE bookingid='$nic'");
 
         if($query){
             header("location: booking.php");
         }
         
     }
-    else if(isset($_GET['cancelsp'])){
-        $nic = $_GET['cancelsp'];
-        $query = mysqli_query($con, "DELETE FROM bookingsp WHERE bookingid='$nic'");
-
-        if($query){
-            header("location: booking.php");
-        }
-        
-    }
+ 
     else if(isset($_GET['com'])){
         $nic = $_GET['com'];
         $query = mysqli_query($con, "UPDATE booking SET status = 'confirmed' WHERE bookingid='$nic'");
@@ -85,7 +77,7 @@
     }
     else if(isset($_GET['comm'])){
         $nic = $_GET['comm'];
-        $query = mysqli_query($con, "UPDATE bookingother SET status = 'confirmed' WHERE bookingid='$nic'");
+        $query = mysqli_query($con, "UPDATE bookingdressing SET status = 'confirmed' WHERE bookingid='$nic'");
 
         if($query){
             header("location: booking.php");
@@ -94,7 +86,7 @@
     }
     else if(isset($_GET['comgr'])){
         $nic = $_GET['comgr'];
-        $query = mysqli_query($con, "UPDATE bookinggrooming SET status = 'confirmed' WHERE bookingid='$nic'");
+        $query = mysqli_query($con, "UPDATE bookinghaircutting SET status = 'confirmed' WHERE bookingid='$nic'");
 
         if($query){
             header("location: booking.php");
@@ -103,22 +95,14 @@
     }
     else if(isset($_GET['comtesting'])){
         $nic = $_GET['comtesting'];
-        $query = mysqli_query($con, "UPDATE bookingtesting SET status = 'confirmed' WHERE bookingid='$nic'");
+        $query = mysqli_query($con, "UPDATE bookingmanicurepedicure SET status = 'confirmed' WHERE bookingid='$nic'");
 
         if($query){
             header("location: booking.php");
         }
         
     }
-    else if(isset($_GET['comsp'])){
-        $nic = $_GET['comsp'];
-        $query = mysqli_query($con, "UPDATE bookingsp SET status = 'confirmed' WHERE bookingid='$nic'");
-
-        if($query){
-            header("location: booking.php");
-        }
-        
-    }
+  
     else if(isset($_GET['shippings'])){
         $nic = $_GET['shippings'];
         $query = mysqli_query($con, "UPDATE boughtitems SET status = 'shipping start' WHERE orderId='$nic'");

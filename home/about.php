@@ -5,35 +5,31 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Petco</title>
+        <title>Beauty</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="shortcut icon" type="/../Pet/image/x-icon" href="/../Pet/img/favicon.png">
+		
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
-        <link rel="stylesheet" href="/../Pet/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/../Pet/css/animate.min.css">
-        <link rel="stylesheet" href="/../Pet/css/magnific-popup.css">
-        <link rel="stylesheet" href="/../Pet/css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="/../Pet/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="/../Pet/css/nice-select.css">
-        <link rel="stylesheet" href="/../Pet/css/flaticon.css">
-        <link rel="stylesheet" href="/../Pet/css/odometer.css">
-        <link rel="stylesheet" href="/../Pet/css/jquery-ui.css">
-        <link rel="stylesheet" href="/../Pet/css/slick.css">
-        <link rel="stylesheet" href="/../Pet/css/default.css">
-        <link rel="stylesheet" href="/../Pet/css/style.css">
-        <link rel="stylesheet" href="/../Pet/css/responsive.css">
+        <link rel="stylesheet" href="/../Beauty/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/animate.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/magnific-popup.css">
+        <link rel="stylesheet" href="/../Beauty/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="/../Beauty/css/nice-select.css">
+        <link rel="stylesheet" href="/../Beauty/css/flaticon.css">
+        <link rel="stylesheet" href="/../Beauty/css/odometer.css">
+        <link rel="stylesheet" href="/../Beauty/css/jquery-ui.css">
+        <link rel="stylesheet" href="/../Beauty/css/slick.css">
+        <link rel="stylesheet" href="/../Beauty/css/default.css">
+        <link rel="stylesheet" href="/../Beauty/css/style.css">
+        <link rel="stylesheet" href="/../Beauty/css/responsive.css">
     </head>
     <body>
 
-        <!-- Preloader -->
-        <div id="preloader">
-            <img src="/../Pet/img/preloader.gif" alt="">
-        </div>
-        <!-- Preloader-end -->
+        
 
 		<!-- Scroll-top -->
         <button class="scroll-top scroll-to-target" data-target="html">
@@ -50,7 +46,7 @@
                             <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
                             <div class="menu-wrap">
                                 <nav class="menu-nav show">
-                                    <div class="logo"><a href="index.html"><img src="/../Pet/img/logo/logo.png" alt=""></a></div>
+                                    <div class="logo"><a href="index.html"><img src="/../Beauty/img/logo/logo.png" alt=""></a></div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                     <ul class="navigation">
                                             <li ><a href="home.php">Home</a></li>
@@ -67,7 +63,7 @@
                                             <li><a href="shop.php"><i class="fa fa-shopping-cart"></i></a></li>
                                           
                                                 
-                                            <li class="header-btn"><a href="/../Pet/" class="btn">Logout  <img src="/../Pet/img/icon/w_pawprint.png" alt=""></a></li>
+                                            <li class="header-btn"><a href="/../Beauty/" class="btn">Logout  <img src="/../Beauty/img/icon/w_pawprint.png" alt=""></a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -76,7 +72,7 @@
                             <div class="mobile-menu">
                                 <nav class="menu-box">
                                     <div class="close-btn"><i class="fas fa-times"></i></div>
-                                    <div class="nav-logo"><a href="index.html"><img src="/../Pet/img/logo/logo.png" alt="" title=""></a>
+                                    <div class="nav-logo"><a href="index.html"><img src="/../Beauty/img/logo/logo.png" alt="" title=""></a>
                                     </div>
                                     <div class="menu-outer">
                                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -89,7 +85,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="header-shape" data-background="/../Pet/img/bg/header_shape.png"></div>
+                <div class="header-shape" data-background="/../Beauty/img/bg/header_shape.png"></div>
             </div>
             <!-- header-search -->
            
@@ -103,7 +99,7 @@
         <main>
 
             <!-- breadcrumb-area -->
-            <section class="breadcrumb-area breadcrumb-bg" data-background="/../Pet/img/bg/breadcrumb_bg.jpg">
+            <section class="breadcrumb-area breadcrumb-bg" data-background="/../Beauty/img/bg/breadcrumb_bg.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -124,10 +120,8 @@
                         <div class="col-xl-4 col-lg-9 col-md-12 col-sm-9">
                             <div class="adoption-content">
                                 <h5 class="sub-title">About Us</h5>
-                                <h2 class="title">Best Place <span>For</span> Your Pets</h2>
-                                <p>we are a team of passionate animal lovers who are dedicated to providing the best possible care for your beloved pets.
-                                     Our mission is to ensure the health, well-being, and happiness of pets through comprehensive veterinary services, boarding,
-                                      grooming, rehabilitation, nutrition counseling, and more.</p>
+                                <h2 class="title">Best Place <span>For</span> Your Beauty</h2>
+                                <p>At Beauty's. we pride ourselves on being the best one stop salon in Nikaweratiya. We provide a wide range of services at affordable prices. We aim to serve you with the highest level of customer service as well as giving you the most incredible salon experience ever!.</p>
                                 
                             </div>
                         </div>
@@ -138,37 +132,37 @@
                                         <div class="breeder-active owl-carousel">
                                             <div class="breeder-item">
                                                 <a href="breeder-details.html">
-                                                    <img src="/../Pet/img/images/breeder_img01.jpg" alt="">
+                                                    <img src="/../Beauty/img/images/breeder_img01.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="breeder-item">
                                                 <a href="breeder-details.html">
-                                                    <img src="/../Pet/img/images/breeder_img02.jpg" alt="">
+                                                    <img src="/../Beauty/img/images/breeder_img02.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="breeder-item">
                                                 <a href="breeder-details.html">
-                                                    <img src="/../Pet/img/images/breeder_img03.jpg" alt="">
+                                                    <img src="/../Beauty/img/images/breeder_img03.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="breeder-item">
                                                 <a href="breeder-details.html">
-                                                    <img src="/../Pet/img/images/breeder_img04.jpg" alt="">
+                                                    <img src="/../Beauty/img/images/breeder_img04.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="breeder-item">
                                                 <a href="breeder-details.html">
-                                                    <img src="/../Pet/img/images/breeder_img05.jpg" alt="">
+                                                    <img src="/../Beauty/img/images/breeder_img05.jpg" alt="">
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="breed-services-info" data-background="/../Pet/img/bg/breed_services_bg.jpg">
+                                        <div class="breed-services-info" data-background="/../Beauty/img/bg/breed_services_bg.jpg">
                                             
                                             <h3 class="title">Our Facilities</h3>
-                                            <p>Our facility is equipped with state-of-the-art technology and facilities to provide top-notch medical care for pets of all sizes and ages. </p>
-                                            <a href="blog.php" class="btn"> Read More <img src="/../Pet/img/icon/w_pawprint.png" alt=""></a>
+                                            <p>These facilities work together to provide clients with a comprehensive range of beauty services in a comfortable and hygienic environment</p>
+                                            <a href="blog.php" class="btn"> Read More <img src="/../Beauty/img/icon/w_pawprint.png" alt=""></a>
                                         </div>
                                     </div>
                                 </div>
@@ -181,39 +175,7 @@
            
            <br><br><br><br>
 
-            <!-- faq-area -->
-            <section class="faq-area faq-two-bg">
-                <div class="faq-two-img"></div>
-                <div class="container">
-                    <div class="row justify-content-end">
-                        <div class="col-xl-7 col-lg-6">
-                            <div class="faq-wrapper">
-                                <div class="section-title white-title mb-35">
-                                  
-                                    <h2 class="title">Our History</h2>
-                                </div>
-                                <div class="accordion" id="accordionExample">
-                                    <div class="card">
-                                    
-                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                            data-parent="#accordionExample">
-                                            <div class="card-body">
-                                            Our Pet Care Center has a rich history that spans over several decades, driven by a passion for providing 
-                                            exceptional care to animals. Our journey began as a small veterinary clinic established by a group of dedicated
-                                             veterinarians who shared a common goal of making a positive impact on the lives of pets and their owners.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="faq-shape"><img src="/../Pet/img/images/faq_shape.png" alt=""></div>
-            </section>
-            <!-- faq-area-end -->
+          
            
 <br><br><br><br>
            
@@ -232,20 +194,20 @@
 
 
 		<!-- JS here -->
-        <script src="/../Pet/js/vendor/jquery-3.6.0.min.js"></script>
-        <script src="/../Pet/js/bootstrap.min.js"></script>
-        <script src="/../Pet/js/isotope.pkgd.min.js"></script>
-        <script src="/../Pet/js/imagesloaded.pkgd.min.js"></script>
-        <script src="/../Pet/js/jquery.magnific-popup.min.js"></script>
-        <script src="/../Pet/js/owl.carousel.min.js"></script>
-        <script src="/../Pet/js/jquery.odometer.min.js"></script>
-        <script src="/../Pet/js/jquery.nice-select.min.js"></script>
-        <script src="/../Pet/js/jquery-ui.min.js"></script>
-        <script src="/../Pet/js/jquery.appear.js"></script>
-        <script src="/../Pet/js/slick.min.js"></script>
-        <script src="/../Pet/js/wow.min.js"></script>
-        <script src="/../Pet/js/plugins.js"></script>
-        <script src="/../Pet/js/main.js"></script>
+        <script src="/../Beauty/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="/../Beauty/js/bootstrap.min.js"></script>
+        <script src="/../Beauty/js/isotope.pkgd.min.js"></script>
+        <script src="/../Beauty/js/imagesloaded.pkgd.min.js"></script>
+        <script src="/../Beauty/js/jquery.magnific-popup.min.js"></script>
+        <script src="/../Beauty/js/owl.carousel.min.js"></script>
+        <script src="/../Beauty/js/jquery.odometer.min.js"></script>
+        <script src="/../Beauty/js/jquery.nice-select.min.js"></script>
+        <script src="/../Beauty/js/jquery-ui.min.js"></script>
+        <script src="/../Beauty/js/jquery.appear.js"></script>
+        <script src="/../Beauty/js/slick.min.js"></script>
+        <script src="/../Beauty/js/wow.min.js"></script>
+        <script src="/../Beauty/js/plugins.js"></script>
+        <script src="/../Beauty/js/main.js"></script>
     </body>
 
 <!-- Mirrored from themebeyond.com/pre/petco-prev/petco-live/dog-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Apr 2023 08:31:45 GMT -->

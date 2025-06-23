@@ -5,11 +5,11 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Petco</title>
+        <title>Beauty</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+		
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
@@ -29,11 +29,7 @@
     </head>
     <body>
 
-        <!-- Preloader -->
-        <div id="preloader">
-            <img src="img/preloader.gif" alt="">
-        </div>
-        <!-- Preloader-end -->
+        
 
 		<!-- Scroll-top -->
         <button class="scroll-top scroll-to-target" data-target="html">
@@ -108,7 +104,7 @@
                                 <div class="col-xl-5 col-lg-7 col-md-10">
                                     <div class="slider-content">
                                         <div class="slider-title">
-                                            <h2 class="title" data-animation="fadeInUpBig" data-delay=".2s" data-duration="1.2s">Best Place <span>For</span>Your Pets</h2>
+                                            <h2 class="title" data-animation="fadeInUpBig" data-delay=".2s" data-duration="1.2s">Best Place <span>For</span>Your Beauty</h2>
                                         </div>
                                        
                                         <a href="blog.php" class="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s">View More <img src="img/icon/w_pawprint.png" alt=""></a>
@@ -119,42 +115,11 @@
                     </div>
                    
                 </div>
-                <div class="slider-shape"><img src="img/slider/slider_shape01.png" alt=""></div>
-                <div class="slider-shape shape-two"><img src="img/slider/slider_shape02.png" alt=""></div>
+                
             </section>
             <!-- slider-area-end -->
 
-            <!-- find-area -->
-            <div class="find-area">
-                <div class="container custom-container">
-                    <div class="row">
-                        <div class="col-12">
-                            <form action="#">
-                                <div class="find-wrap">
-                                    <div class="location">
-                                        <i class="flaticon-location"></i>
-                                        <input type="text" value="PETCO,Kurunegala,SL">
-                                    </div>
-                                    <div class="find-category">
-                                        <ul>
-                                            <li><a href="shop.html"><i class="fa fa-user-md"></i>Veterinarians</a></li>
-                                            <li><a href="shop.html"><i class="fa fa-shopping-cart"></i> Shop</a></li>
-                                            <li><a href="login.php"><i class="fa fa-user"></i> Sign In</a></li>
-                                           
-                                        </ul>
-                                    </div>
-                                    <div class="location">
-                                        <i class="fa fa-mobile"></i>
-                                        <input type="text" value="0769262642">
-                                    </div>
-                                    
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- find-area-end -->
+            
                        <!-- breeder-area -->
              <section class="inner-breeder-area breeder-bg">
                 <div class="container">
@@ -162,11 +127,10 @@
                         <div class="col-xl-4 col-lg-9 col-md-12 col-sm-9">
                             <div class="adoption-content">
                                 <h5 class="sub-title">About Us</h5>
-                                <h2 class="title">Best Place <span>For</span> Your Pets</h2>
-                                <p>we are a team of passionate animal lovers who are dedicated to providing the best possible care for your beloved pets.
-                                     Our mission is to ensure the health, well-being, and happiness of pets through comprehensive veterinary services, boarding,
-                                      grooming, rehabilitation, nutrition counseling, and more.</p>
-                                
+                                <h2 class="title">Best Place <span>For</span> Your Beauty</h2>
+                                <p>At Beauty's. we pride ourselves on being the best one stop salon in Nikaweratiya.
+                                     We provide a wide range of services at affordable prices. We aim to serve you with the highest level of 
+                                     customer service as well as giving you the most incredible salon experience ever!.</p>   
                             </div>
                         </div>
                         <div class="col-xl-8 col-lg-9 col-md-12 col-sm-9">
@@ -205,7 +169,8 @@
                                         <div class="breed-services-info" data-background="img/bg/breed_services_bg.jpg">
                                             
                                             <h3 class="title">Our Facilities</h3>
-                                            <p>Our facility is equipped with state-of-the-art technology and facilities to provide top-notch medical care for pets of all sizes and ages. </p>
+                                            <p>These facilities work together to provide clients with a comprehensive range of beauty
+                                                 services in a comfortable and hygienic environment</p>
                                             <a href="blog.php" class="btn"> Read More <img src="img/icon/w_pawprint.png" alt=""></a>
                                         </div>
                                     </div>
@@ -241,10 +206,13 @@
                         <div class="col-lg-6">
                             <div class="adoption-content">
                                 <h5 class="sub-title">Our Services</h5>
-                                <h2 class="title">We Help Keep <span>Your</span> <br> Pet Happy</h2>
-                                <p>We offer a wide range of services designed to meet the unique needs of your pet, including preventive care, medical and surgical
-                                     treatments, dental care, grooming, boarding, and rehabilitation. We strive to create a stress-free and comfortable environment for your pet, 
-                                     ensuring they feel safe and relaxed during their visits.</p>
+                                <h2 class="title">We Help Keep <span>Your</span> <br> Beauty</h2>
+                                <p>If you're looking for a place to pamper yourself and value for money, Beauty is the best place you'll find.</p>
+                               
+                                <p>The staff are very friendly and amazingly good at their jobs. 
+                                If you can visit here once, you can see the range of services 
+                                and how comfortable you can be with them</p>
+                            
                                
                             </div>
                         </div>
